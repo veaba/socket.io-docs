@@ -64,5 +64,4 @@ io.on('connection',(socket)=>{
 
 > mp4 ：https://i.cloudup.com/transcoded/J4xwRU9DRn.mp4
 
-![mp4](https://i.cloudup.com/transcoded/J4xwRU9DRn.mp4)
 
