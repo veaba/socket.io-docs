@@ -1,10 +1,9 @@
-## 困难词汇
 - `behind`
 - `prevents 放置` 
-## 思考
-- 使用`socket.io`推送二进制的文件，比如音频、视频等，emmm，突然想到我那个项目。https://github.com/veaba/express-nuxt，里面涉及到一个live 的page，可以翻译LOL 的视频直播字幕的转换，期待。。
 
-# 5. 发送事件
+> 使用`socket.io`推送二进制的文件，比如音频、视频等，emmm，突然想到我那个项目。https://github.com/veaba/express-nuxt，里面涉及到一个live 的page，可以翻译LOL 的视频直播字幕的转换，期待。。
+
+## 发送事件
 
 `socket.io`背后的主要思想是：你可以使用你想要的任何数据发送和接受你想要的任何事件，比如可以编码为json的对象，甚至也支持二进制数据。
 

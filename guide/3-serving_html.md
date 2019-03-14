@@ -1,12 +1,10 @@
-
-## 困难的词汇
 - `confufing 混乱 混淆`
 - `entire 整个`
 - `placed 放置`
 - `instead 相反的`
 - `refactor 重构`
 
-# 3. 服务HTML
+## 服务HTML
 
 到目前为止，在 `index.js` 中我们调用了 `res.end`并传递一个HTML字符串。如果我们将整个应用程序的HTML放在那里，我们代码看起来会很混乱，相反，我们将创建一个`index.html`文件并提供服务。
 

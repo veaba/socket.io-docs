@@ -1,9 +1,7 @@
-## 困难的词汇
 - `goal 传统，一直以来`
 - `populate `
 
-
-# 2. web框架
+## web框架
 
 第一个目标是设置一个简单的HTML网页，用于提供表单和消息列表，我们将使用Node.js web框架`express`。确保已安装了[nodejs](http://nodejs.org)
 

@@ -1,12 +1,11 @@
 
-## TODO 
-- 后续，极限测试socket.io 能够支持多少条connection同时连接
-## 困难的词汇
+> TODO:后续，极限测试socket.io 能够支持多少条connection同时连接
+
 - `composed 组成`
 - `exposes 暴露` 
 - `several 一些` 
 
-# 4. 集成 socket.io
+## 集成 socket.io
 
 socket.io 是由两个部分组成：
 

@@ -1,4 +1,3 @@
-## 重点词汇
 - `broadcasting 广播` 
 - `the rest 其余`
 - `in order to 为了`
@@ -10,7 +9,7 @@
 - `total 全部`
 - `amounts `
 
-# 6. 广播
+## 广播
 
 下一个目标是让我们从服务器向其他用户发送事件
 
