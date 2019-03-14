@@ -27,6 +27,9 @@ io.on('connection',(socket)=>{
     socket.broadcast.emit('hi')
 })
 ```
+如图，刷新中间的窗口，服务器则向左右两侧的窗口推送消息：
+
+![广播](/images/broadcast.png)
 
 在这种情况下。为了简单起见，我们会将消息发送给所有人，包括发件人
 
