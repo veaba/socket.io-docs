@@ -1,5 +1,5 @@
-- `directly `
-- `presses `
+- `directly z直接地 `
+- `presses 按下`
 - `typing 打字`
 - `functionality 功能`
 - `improvements 改进`

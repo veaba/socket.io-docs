@@ -1,5 +1,5 @@
-- `goal 传统，一直以来`
-- `populate `
+- `goal 目标，得分，母的`
+- `populate 填充、补完`
 
 ## web框架
 
@@ -20,6 +20,8 @@
 
 ```shell
     npm install --save express@4.15.2 #这里不建议指定版本
+
+    #npm install --save express 
 ```
 
 `express`安装后，我们可以创建一个设置我们的应用程序的 `index.js` 文件

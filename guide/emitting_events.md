@@ -1,4 +1,4 @@
-- `behind`
+- `behind 背后`
 - `prevents 放置` 
 
 > 使用`socket.io`推送二进制的文件，比如音频、视频等，emmm，突然想到我那个项目。https://github.com/veaba/express-nuxt，里面涉及到一个live 的page，可以翻译LOL 的视频直播字幕的转换，期待。。

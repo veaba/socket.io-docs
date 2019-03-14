@@ -7,7 +7,7 @@
 - `for the sake of simplicity 为了简单起见`
 - `capture  捕获`
 - `total 全部`
-- `amounts `
+- `amounts 量、等于、合计`
 
 ## 广播
 
@@ -22,7 +22,7 @@ io.emit('some event',{for:'hey gay! to everyone'})
 如果你想向除了某些`socket`以外的所有人发送消息，我们有`broadcasting`广播标志：
 
 ```js
-// TODO 不懂~
+// 向所有非自己连接的客户端，发送连接数
 io.on('connection',(socket)=>{
     socket.broadcast.emit('hi')
 })
