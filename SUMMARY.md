@@ -18,16 +18,36 @@
         * [using_with_node_http_server](docs/overview/using_with_node_http_server.md)    
         * [using_with_express](docs/overview/.md)    
         * [sending_and_receiving_events](docs/overview/sending_and_receiving_events.md)    
-        * [restricting_yourself_to_a_namespace](docs/overview/restricting_yourself_to_a_namespace.md)    
+        * [restricting_yourself_to_a_namespace](docs/overviewrestricting_yourself_to_a_namespace.md)
         * [sending_volatile_message](docs/overview/sending_volatile_message.md)    
         * [sending_and_getting_data_acknowledgements](docs/overview/sending_and_getting_data_acknowledgements.md)  
         * [broadcasting_messages](docs/overview/broadcasting_messages.md)   
         * [using_it_just_as_a_cross_browser_websocket](docs/overview/using_it_just_as_a_cross_browser_websocket.md)     
+
     * [rooms_and_namespaces]()
+        * [namespaces](docs/rooms_and_namespaces/namespaces.md)
+        * [rooms](docs/rooms_and_namespaces/rooms.md)
+        * [sending_message_from_the_outside-world](docs/rooms_and_namespaces/sending_message_from_the_outside-world.md)
+
     * [migrating_from_0.9]()
+        * [authentication_differences](docs/migrating_from_0.9/authentication_differences.md )
+        * [parser_protocol_differences](docs/migrating_from_0.9/parser_protocol_differences.md)
+        * [log_differences](docs/migrating_from_0.9/log_differences.md)
+        * [shorcuts](docs/migrating_from_0.9/shorcuts.md)
+
     * [using_multiple_nodes]()
+        * [apache_httpd_configuration](docs/using_multiple_nodes/apache_httpd_configuration.md)
+        * [passing_events_between_nodes](docs/using_multiple_nodes/passing_events_between_nodes.md)
+        * [haproxy_configuration](docs/using_multiple_nodes/haproxy_configuration.md)
+        * [sticky_load_balancing](docs/using_multiple_nodes/sticky_load_balancing.md)
+        * [nginx_configuration](docs/using_multiple_nodes/nginx_configuration.md)
+        * [using_node.js_cluster](docs/using_multiple_nodes/using_node.js_cluster.md)
+
     * [logging_and_debugging]()
+        * [available_debugging_scopes](docs/logging_and_debugging/available_debugging_scopes.md)
+        
     * [emit_cheatsheet](docs/emit_cheatsheet.md)
+
     * [internals_overview]()
         * [internals_overview_dependency_graph_under_the_hood](docs/internals_overview_dependency_graph_under_the_hood.md)
         * [internals_overview_dependency_graph](docs/internals_overview_dependency_graph.md)
