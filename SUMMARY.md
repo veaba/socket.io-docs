@@ -1,6 +1,6 @@
 # Table of contents
 * [关于本socket.io中文文档](README.md)
-* [Guide]()
+* [指南]()
     * [介绍](guide/1-introduction.md)
     * [web框架](guide/2-the_web_framework.md)
     * [服务HTML](guide/3-serving_html.md)
@@ -10,8 +10,8 @@
     * [作业](guide/7-homework.md)
     * [获取示例](guide/8-getting_this_example.md)
 
-* [Documents]()
-    * [overview]()
+* [文档]()
+    * [概览]()
         * [what_socket.io_is](docs/overview/what_socket.io_is.md)    
         * [what_socket.io_is_not](docs/overview/what_socket.io_is_not.md)    
         * [installing](docs//overview/installing.md)    
@@ -54,7 +54,7 @@
 
     * [faq](docs/faq.md)   
 
-* [Client-API]()
+* [客户端-API]()
     * [io]()
         * [io.protocpl](io_protocol.md)
         * [io([url][,optiosn])](io_url_options.md)
@@ -114,7 +114,7 @@
         * [event:ping](event_ping.md)
         * [event:pong](event_pong.md)
 
-* [Server-API]()
+* [服务端-API]()
 
     * [server]()
         * [new_server_httpserver_options](new_server_httpserver_options.md)
