@@ -24,10 +24,10 @@
         * [广播消息](docs/overview/broadcasting_messages.md)   
         * [作为跨浏览器使用websocket](docs/overview/using_it_just_as_a_cross_browser_websocket.md)     
 
-    * [rooms_and_namespaces]()
-        * [namespaces](docs/rooms_and_namespaces/namespaces.md)
-        * [rooms](docs/rooms_and_namespaces/rooms.md)
-        * [sending_message_from_the_outside-world](docs/rooms_and_namespaces/sending_message_from_the_outside-world.md)
+    * [房间和命名空间]()
+        * [命名空间](docs/rooms_and_namespaces/namespaces.md)
+        * [房间](docs/rooms_and_namespaces/rooms.md)
+        * [给外部发送消息](docs/rooms_and_namespaces/sending_message_from_the_outside-world.md)
 
     * [migrating_from_0.9]()
         * [authentication_differences](docs/migrating_from_0.9/authentication_differences.md )
