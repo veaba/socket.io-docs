@@ -1,4 +1,4 @@
-## 类似跨浏览器Websocket
+## 作为跨浏览器使用websocket
 
 如果您只想要WebSocket语义，那么您也可以这样做。 只需利用`send`和监听`message`事件：
 
