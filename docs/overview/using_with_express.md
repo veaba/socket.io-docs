@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 
 io.on('connection',(socket)=>{
     socket.emit('news',{hello:'world'}
-    soclet.ont('my other event',(data)=>{
+    socket.on('my other event',(data)=>{
         console.log(data)
     })
 })

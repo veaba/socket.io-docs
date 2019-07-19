@@ -1,5 +1,6 @@
 # Table of contents
 * [关于本socket.io中文文档](README.md)
+* [socke.IO website](https://socket.io/)
 
 * [1 指南(Guide)]()
     * [1-1 介绍(Introduction)](guide/introduction.md)
@@ -30,11 +31,12 @@
         * [2.2.2 房间](docs/rooms_and_namespaces/rooms.md)
         * [2.2.3 给外部发送消息](docs/rooms_and_namespaces/sending_message_from_the_outside-world.md)
 
-    * [2.3 migrating_from_0.9]()
+    * [2.3 从0.9迁移版本 migrating_from_0.9]()
         * [2.3.1 authentication_differences](docs/migrating_from_0.9/authentication_differences.md )
-        * [2.3.2 parser_protocol_differences](docs/migrating_from_0.9/parser_protocol_differences.md)
-        * [2.3.3 log_differences](docs/migrating_from_0.9/log_differences.md)
-        * [2.3.4 shorcuts](docs/migrating_from_0.9/shorcuts.md)
+        * [2.3.2 log_differences](docs/migrating_from_0.9/log_differences.md)
+        * [2.3.3 shorcuts](docs/migrating_from_0.9/shorcuts.md)
+        * [2.3.4 configuration_differences](docs/migrating_from_0.9/configuration_differences.md)
+        * [2.3.5 parser_protocol_differences](docs/migrating_from_0.9/parser_protocol_differences.md)
 
     * [2.4 using_multiple_nodes]()
         * [2.4.1 apache_httpd_configuration](docs/using_multiple_nodes/apache_httpd_configuration.md)
