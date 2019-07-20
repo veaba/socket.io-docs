@@ -11,3 +11,17 @@ const redis = require('socket.io-redis');
 io.adapter(redis({host:"localhost",port:6379}));
 
 ```
+
+如下调用：
+
+```js
+io.emit('hi',"all sockets")
+```
+
+将通过redis的[发布/订阅机制](https://redis.io/topics/pubsub)广播到每个节点。
+
+
+**注意**：使用Redis适配器时仍然需要粘性会话。
+
+如果您想通过`non-socket.io`进程将消息传递给它，您应该考虑[“从外部世界发送消息”](https://socket.io/docs/rooms-and-namespaces/#Sending-messages-from-the-outside-world)。
+
