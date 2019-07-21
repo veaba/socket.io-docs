@@ -10,7 +10,6 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 > 剩下API 尚未完成
 
 ## 目录
-
 * [关于本socket.io中文文档](README.md)
 * [socke.IO website](https://socket.io/)
 
@@ -38,33 +37,34 @@ gitbook 见 ：https://socket.gitbook.io/docs/
         * [2.1.10 广播消息](docs/overview/broadcasting_messages.md)   
         * [2.1.111 作为跨浏览器使用websocket](docs/overview/using_it_just_as_a_cross_browser_websocket.md)     
 
-    * [2.2 房间和命名空间]() todo
+    * [2.2 房间和命名空间]()
         * [2.2.1 命名空间](docs/rooms_and_namespaces/namespaces.md)
         * [2.2.2 房间](docs/rooms_and_namespaces/rooms.md)
         * [2.2.3 给外部发送消息](docs/rooms_and_namespaces/sending_message_from_the_outside-world.md)
 
-    * [2.3 migrating_from_0.9]()
-        * [2.3.1 authentication_differences](docs/migrating_from_0.9/authentication_differences.md )
-        * [2.3.2 parser_protocol_differences](docs/migrating_from_0.9/parser_protocol_differences.md)
-        * [2.3.3 log_differences](docs/migrating_from_0.9/log_differences.md)
-        * [2.3.4 shorcuts](docs/migrating_from_0.9/shorcuts.md)
+    * [2.3 从0.9迁移版本 migrating_from_0.9]()
+        * [2.3.1 身份验证差异](docs/migrating_from_0.9/authentication_differences.md )
+        * [2.3.2 日志差异](docs/migrating_from_0.9/log_differences.md)
+        * [2.3.3 快捷方式](docs/migrating_from_0.9/shorcuts.md)
+        * [2.3.4 配置差异](docs/migrating_from_0.9/configuration_differences.md)
+        * [2.3.5 解析器/协议差异](docs/migrating_from_0.9/parser_protocol_differences.md)
 
-    * [2.4 using_multiple_nodes]()
-        * [2.4.1 apache_httpd_configuration](docs/using_multiple_nodes/apache_httpd_configuration.md)
-        * [2.4.2 passing_events_between_nodes](docs/using_multiple_nodes/passing_events_between_nodes.md)
-        * [2.4.3 haproxy_configuration](docs/using_multiple_nodes/haproxy_configuration.md)
-        * [2.4.4 sticky_load_balancing](docs/using_multiple_nodes/sticky_load_balancing.md)
-        * [2.4.5 nginx_configuration](docs/using_multiple_nodes/nginx_configuration.md)
-        * [2.4.6 using_node.js_cluster](docs/using_multiple_nodes/using_node.js_cluster.md)
+    * [2.4 多路节点使用]()
+        * [2.4.1 Apache httpd配置](docs/using_multiple_nodes/apache_httpd_configuration.md)
+        * [2.4.2 在节点之间传递事件](docs/using_multiple_nodes/passing_events_between_nodes.md)
+        * [2.4.3 Haproxy配置](docs/using_multiple_nodes/haproxy_configuration.md)
+        * [2.4.4 粘性负载均衡](docs/using_multiple_nodes/sticky_load_balancing.md)
+        * [2.4.5 Nginx配置](docs/using_multiple_nodes/nginx_configuration.md)
+        * [2.4.6 使用node.js集群](docs/using_multiple_nodes/using_node.js_cluster.md)
 
-    * [2.5 logging_and_debugging]()
-        * [2.5.1 available_debugging_scopes](docs/logging_and_debugging/available_debugging_scopes.md)
+    * [2.5 日志和调试]()
+        * [2.5.1 可用的调试范围](docs/logging_and_debugging/available_debugging_scopes.md)
 
-    * [2.6 emit_cheatsheet](docs/emit_cheatsheet.md)
+    * [2.6 emit 备忘单](docs/emit_cheatsheet.md)
 
-    * [2.7 internals_overview]()
-        * [2.7.1 internals_overview_dependency_graph_under_the_hood](docs/internals_overview_dependency_graph_under_the_hood.md)
-        * [2.7.2 internals_overview_dependency_graph](docs/internals_overview_dependency_graph.md)
+    * [2.7 内部概述]()
+        * [2.7.1 内部概述引擎底层依赖关系图](docs/internals_overview_dependency_graph_under_the_hood.md)
+        * [2.7.2 内部概述关系图](docs/internals_overview_dependency_graph.md)
 
     * [2.8 faq](docs/faq.md)   
 
