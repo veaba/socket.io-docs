@@ -184,5 +184,6 @@
         * [4.3.26 event_error](server-api/socket/event_error.md)
         * [4.3.27 event_disconnecting](server-api/socket/event_disconnecting.md)
     * [4.4 client]()
-        * [4.4.1 client_conn](server-api/client/client_conn.md)
-        * [4.4.2 client_request](server-api/client/client_request.md)
+        * [4.4.1 client](server-api/client/client.md)
+        * [4.4.2 client_conn](server-api/client/client_conn.md)
+        * [4.4.3 client_request](server-api/client/client_request.md)

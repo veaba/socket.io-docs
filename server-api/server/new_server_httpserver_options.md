@@ -50,7 +50,7 @@ const io= new Server()
 
 在这些选项中：
 
-- `pingTimeout`和`pingInterval`参数将影响客户机知道服务器不再可用之前的延迟。例如，如果底层TCP连接由于网络问题而未正确关闭，则客户端可能需要等待`pingTimeout+pingInterval` 毫秒，然后才能获得`disconect`(断开连接)事件。
+- `pingTimeout`和`pingInterval`参数将影响socket知道服务器不再可用之前的延迟。例如，如果底层TCP连接由于网络问题而未正确关闭，则客户端可能需要等待`pingTimeout+pingInterval` 毫秒，然后才能获得`disconect`(断开连接)事件。
 
 - `transports`数组的顺序很重要。默认情况下，首先建立一个长轮询连接，然后在可能的情况下升级到WebSocket。使用`['websocket']`意味着如果无法打开websocket连接，就不会有回退。
 

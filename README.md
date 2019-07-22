@@ -9,6 +9,16 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 ## TODO
 > 剩下API 尚未完成
 
+### 批量替换
+
+|错误|校正|
+|---|----|
+|客户机|客户端|
+|套接字|socket|
+|插座|socket|
+|发射|发送|
+|||
+
 ## 目录
 * [关于本socket.io中文文档](README.md)
 * [socke.IO website](https://socket.io/)

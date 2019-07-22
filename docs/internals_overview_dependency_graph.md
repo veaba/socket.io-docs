@@ -33,7 +33,7 @@ engine.io是socket.io基于传输的跨浏览器/跨设备双向通信层的实�
 
 ### engine.io-client
 
-这是[engine.io](https://github.com/socketio/engine.io)的客户机，是基于传输的[socket.io](https://github.com/socketio/socket.io)跨浏览器/跨设备双向通信层的实现。
+这是[engine.io](https://github.com/socketio/engine.io)的socket，是基于传输的[socket.io](https://github.com/socketio/socket.io)跨浏览器/跨设备双向通信层的实现。
 
 它在浏览器（包括HTML5 [WebWorker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API) ）和node.js中运行。
 

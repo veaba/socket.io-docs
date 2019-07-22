@@ -1,6 +1,6 @@
 ## 解析器/协议 差异
 
-这只与用其他语言更新socket.io实现、自定义socket.io客户机等相关。
+这只与用其他语言更新socket.io实现、自定义socket.iosocket等相关。
 
 ### 差异1 - 数据包编码
 
