@@ -26,7 +26,7 @@ const io= new Server()
 |`serverClinet`|`true`|是否提供客户端文件|
 |`adapter`|-|要使用的适配器。默认为socket.io随附的基于内存的`Adapter`实例。见[socket.io-adapter](https://github.com/socketio/socket.io-adapter)|
 |`origins`|`*`|允许源|
-|`parser`|-|要使用的分析器。默认为socket.io附带的分析器实例,见[ socket.io-parser](https://github.com/socketio/socket.io-parser)|
+|`parser`|-|要使用的解析器。默认为socket.io附带的解析器实例,见[ socket.io-parser](https://github.com/socketio/socket.io-parser)|
 ||||
 
 基础engine.io服务器的可用选项：
