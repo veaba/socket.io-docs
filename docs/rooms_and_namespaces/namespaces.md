@@ -1,9 +1,3 @@
-
-- `essentially  本质上`
-- `assigning 分配`
-- `minimize 减少`
-- `identified `
-- `short form 简写`
 ## 命名空间
 
 `Socket.io`允许你 “namespace”你的`sockets`，这实际上意味着分配不同的端点或路径。

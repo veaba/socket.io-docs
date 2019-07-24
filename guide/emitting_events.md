@@ -1,6 +1,3 @@
-- `behind 背后`
-- `prevents 放置` 
-
 > 使用`socket.io`推送二进制的文件，比如音频、视频等，emmm，突然想到我那个项目。https://github.com/veaba/express-nuxt，里面涉及到一个live 的page，可以翻译LOL 的视频直播字幕的转换，期待。。
 
 ## 发送事件
@@ -37,7 +34,7 @@
 ```
 
 
->提醒，关于以上代码的路径，是实际开发中，存在偏差，主要是jquery的路基，如果是本地文件，则需要做一层设置，以下为笔者的设置：
+>提醒，关于以上代码的路径，是实际开发中，存在偏差，主要是jquery的路径，如果是本地文件，则需要做一层设置，以下为笔者的设置：
 
 
 在`index.js`中，增加一个`static`目录，存放`jquery`的本地文件
@@ -47,9 +44,9 @@
 
 在 `index.html`中
 ```html
-<script src="/socket.io/socket.io.js"></script><!--这个部分，在node端，会添加一层中间期间给它自己-->
+<script src="/socket.io/socket.io.js"></script><!--这个部分，在node端，会添加一层中间默认路由给它自己-->
 <script src="jquery-1.11.1.js"></script>
 ```
 
-结果将会像这个video展示的一样：https://i.cloudup.com/transcoded/zboNrGSsai.mp4
+结果将会像这个视频展示的一样：https://i.cloudup.com/transcoded/zboNrGSsai.mp4
 

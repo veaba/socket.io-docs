@@ -1,4 +1,6 @@
-gitbook 见 ：https://socket.gitbook.io/docs/
+- gitbook 见 ：https://socket.gitbook.io/docs/
+- github page 见：https://veaba.github.io/socket.io-docs/
+
 
 # Socket.io 文档中文翻译项目
 
@@ -6,26 +8,13 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 
 为了更加深入学习和使用socket.io，现在我把它的文档中文翻译下，也方便自己学习。
 
-## TODO
-> 剩下API 尚未完成
-
-### 批量替换
-
-|错误|校正|
-|---|----|
-|客户机|客户端|
-|套接字|socket|
-|插座|socket|
-|发射|发送|
-|分析器|解析器|
-|underlying|底层|
-|激发|触发|
-
 
 ## 目录
-* [关于本socket.io中文文档](README.md)
-* [socke.IO website](https://socket.io/)
 
+* [关于本socket.io中文文档](https://github.com/veaba/socket.io-docs)
+    * [socke.IO官方网站](https://socket.io/)
+    * [gitbook见](https://socket.gitbook.io/docs/)
+    * [github page 见](https://veaba.github.io/socket.io-docs/)
 * [1 指南(Guide)]()
     * [1-1 介绍(Introduction)](guide/introduction.md)
     * [1-2 web框架(The web framework)](guide/the_web_framework.md)
@@ -210,6 +199,109 @@ gitbook 见 ：https://socket.gitbook.io/docs/
         * [4.4.1 client](server-api/client/client.md)
         * [4.4.2 client_conn](server-api/client/client_conn.md)
         * [4.4.3 client_request](server-api/client/client_request.md)
+
+
+
+## 术语
+
+### 术语转换
+|错误|校正|
+|---|----|
+|`客户机`|客户端|
+|`套接字`|socket|
+|`插座`|socket|
+|`发射`|发送|
+|`分析器`|解析器|
+|`underlying`|底层|
+|`激发`|触发|
+|||
+
+### 英文翻译
+- `traditionally 传统，一直以来`
+- `involves 涉及`
+- `polling 投票、轮询`
+- `goal 目标，得分，母的`
+- `populate 填充、补完`
+- `confufing 混乱 混淆`
+- `entire 整个`
+- `placed 放置`
+- `instead 相反的`
+- `refactor 重构`
+- `composed 组成`
+- `exposes 暴露` 
+- `several 一些` 
+- `behind 背后`
+- `prevents 放置` 
+- `broadcasting 广播` 
+- `the rest 其余`
+- `in order to 为了`
+- `except 除了`
+- `certain 某些`
+- `in the case 在这种情况下`
+- `for the sake of simplicity 为了简单起见`
+- `capture  捕获`
+- `total 全部`
+- `amounts 量、等于、合计`
+- `directly z直接地 `
+- `presses 按下`
+- `typing 打字`
+- `functionality 功能`
+- `improvements 改进`
+- `enables 可以，使能够`
+- `real-time 实时`
+- `bidirectional 双向的` 
+- `event-based 基于事件`
+- `communication 通信、沟通`
+- `between 之间`
+- `consists 包括`
+- `which can  也可以`
+- `Multiplexing 多路复用`
+- `established 建立`
+- `presence 存在`
+- `load balancers 负载均衡器`
+- `firewall 防火墙`
+- `purpose 目的`
+- `antivirus 防病毒`
+- `relies 依赖`
+- `polling 轮询 `
+- `goals 目标`
+- `For this purpose 为此`
+- `Unless 除非`
+- `instructed 得到指示`
+- `otherwise 否则`
+- `heartbeat 心跳`
+- `mechanism 机智`
+- `implemented 实现、实施，贯彻，使生效`
+- `allowing 允许`
+- `anymore 不在`
+- `functionality 功能`
+- `acheieved  实现、达到`
+- `handshake 握手`
+- `serializable 可序列化的`
+- `structures 结构`
+- `separation 分离`
+- `concerns 关注`
+- `per 每`
+- `underlying connection 底层连接`
+- `arbitrary 任意`
+- `reaching 到达`
+- `given 给定、特定、指定`
+- `useful 有用`
+- `standalone 独立`
+- `served 服务`
+- `implementations 实现方式`
+- `several 几个`
+- `maintained 维护、保持`
+- `besides 此外，除了`
+- `restricting 限制`
+- `reception 接待、接受`
+- `volatile 不稳定的`
+- `certain 某些 `
+- `essentially  本质上`
+- `assigning 分配`
+- `minimize 减少`
+- `identified `
+- `short form 简写`
 
 
 _________________________________________

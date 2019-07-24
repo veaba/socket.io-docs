@@ -16,7 +16,7 @@
     "dependencies":{}
 }
 ```
-现在，为了使用我们需要的东西，开始填充`依赖项`，我们使用 `npm install --save express`。(大天朝 自己安装`cnpm install --save express`)
+现在，为了使用我们需要的东西，开始补充`依赖项`，我们使用 `npm install --save express`。(大天朝 自己安装`cnpm install --save express`)
 
 ```shell
     npm install --save express@4.15.2 #这里不建议指定版本

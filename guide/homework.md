@@ -1,11 +1,30 @@
-- `directly z直接地 `
-- `presses 按下`
-- `typing 打字`
-- `functionality 功能`
-- `improvements 改进`
+>针对单个用户，主动发消息，怎么做到的？
 
->TODO:针对单个用户，主动发消息，怎么做到的？
 
+范例如下：
+```js
+const app = express();
+
+const io = socket(app.listen(444, () => {
+    console.info('socket io start:444');
+}));
+io.on('connection', _websocket);
+
+// 对数组第一个ids广播消息
+let chatIds=[]
+const chat = io.of('/chat').on('connection',(socket)=>{
+    chatIds.push(socket.id)
+    
+    let id = chatIds[chatIds.length-1]
+    setInterval(()=>{
+        console.log(1,id)
+        socket.broadcast.to(chatIds[0]).emit('hello', 'axxxx');
+  },5000);
+});
+})
+
+
+```
 ## 作业
 
 以下是改进应用程序的想法：
