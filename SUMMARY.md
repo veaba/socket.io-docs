@@ -1,6 +1,6 @@
 # Table of contents
 * [关于本socket.io中文文档](README.md)
-* [socke.IO website](https://socket.io/)
+* [socket.IO website](https://socket.io/)
 
 * [1 指南(Guide)]()
     * [1-1 介绍(Introduction)](guide/introduction.md)

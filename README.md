@@ -12,7 +12,7 @@
 ## 目录
 
 * [关于本socket.io中文文档](https://github.com/veaba/socket.io-docs)
-    * [socke.IO官方网站](https://socket.io/)
+    * [socket.IO官方网站](https://socket.io/)
     * [gitbook见](https://socket.gitbook.io/docs/)
     * [github page 见](https://veaba.github.io/socket.io-docs/)
 * [1 指南(Guide)]()
