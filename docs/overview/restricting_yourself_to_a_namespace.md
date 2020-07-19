@@ -32,8 +32,8 @@ const chat = io
 
 ```html
 <script>
-    const chat = io.connection('http://localhost/chat')
-    const news = io.connection('http://localhost/news')
+    const chat = io.connect('http://localhost/chat')
+    const news = io.connect('http://localhost/news')
     chat.on('connect',()=>{
         chat.emit('hi~')
     })

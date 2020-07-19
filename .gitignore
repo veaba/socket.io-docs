@@ -1,3 +1,4 @@
+node_modules
+demos/node_modules
 _book
 .idea
-demos/server/node_modules

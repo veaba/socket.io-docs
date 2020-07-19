@@ -6,8 +6,11 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 
 为了更加深入学习和使用socket.io，现在我把它的文档中文翻译下，也方便自己学习。
 
+
+
 ## TODO
-> 剩下API 尚未完成
+
+- 更新新版的socket.io docs
 
 ## 目录
 * [关于本socket.io中文文档](README.md)
