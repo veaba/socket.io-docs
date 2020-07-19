@@ -1,9 +1,3 @@
-- `standalone 独立`
-- `served 服务`
-- `implementations 实现方式`
-- `several 几个`
-- `maintained 维护、保持`
-
 ## 安装
 
 ### Server(服务端)

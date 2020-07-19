@@ -26,7 +26,7 @@ io.level("some room")
 
 ### 默认房间
 
-Socket.io中的每`Socket`都由一个随机的、不可访问的、唯一的标识符`Socket#id`标识。为了方便起见，每个套接字都自动加入由该id标识的房间。
+Socket.io中的每`Socket`都由一个随机的、不可访问的、唯一的标识符`Socket#id`标识。为了方便起见，每个socket都自动加入由该id标识的房间。
 
 
 这使得向其他socket 广播消息变得容易：

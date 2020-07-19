@@ -1,14 +1,3 @@
-- `broadcasting 广播` 
-- `the rest 其余`
-- `in order to 为了`
-- `except 除了`
-- `certain 某些`
-- `in the case 在这种情况下`
-- `for the sake of simplicity 为了简单起见`
-- `capture  捕获`
-- `total 全部`
-- `amounts 量、等于、合计`
-
 ## 广播
 
 下一个目标是让我们从服务器向其他用户发送事件
@@ -41,7 +30,7 @@ io.on('connection',(socket)=>{
 })
 ```
 
-在客户端，大概我们捕获到聊天消息，我们会将其也包含在页面中，现在客户端的JS代码：
+在客户端，我们捕获到聊天消息，将其也包含在页面中，现在客户端的JS代码如下：
 
 ```js
 <script>

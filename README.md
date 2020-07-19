@@ -1,4 +1,6 @@
-gitbook 见 ：https://socket.gitbook.io/docs/
+- gitbook 见 ：https://socket.gitbook.io/docs/
+- github page 见：https://veaba.github.io/socket.io-docs/
+
 
 # Socket.io 文档中文翻译项目
 
@@ -13,9 +15,11 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 - 更新新版的socket.io docs
 
 ## 目录
-* [关于本socket.io中文文档](README.md)
-* [socke.IO website](https://socket.io/)
 
+* [关于本socket.io中文文档](https://github.com/veaba/socket.io-docs)
+    * [socket.IO官方网站](https://socket.io/)
+    * [gitbook见](https://socket.gitbook.io/docs/)
+    * [github page 见](https://veaba.github.io/socket.io-docs/)
 * [1 指南(Guide)]()
     * [1-1 介绍(Introduction)](guide/introduction.md)
     * [1-2 web框架(The web framework)](guide/the_web_framework.md)
@@ -82,8 +86,7 @@ gitbook 见 ：https://socket.gitbook.io/docs/
         * [3.1.7 初始化示例-额外Headers](client-api/io/initialization_examples_with_extraHeaders.md)
         * [3.1.8 初始化示例-仅限websocket传输](client-api/io/initialization_examples_with_websockets_transport_only.md)
         * [3.1.9 初始化示例-自定义解析器](client-api/io/initialization_examples_with_a_custom_parser.md)
-        * [3.1.10 初始化示例-自签名](client-api/io/initialization_examples_with_a_self-signed.md)
-        * [3.1.11 初始化示例-证书](client-api/io/initialization_examples_certificate.md)
+        * [3.1.11 初始化示例-自签名证书](client-api/io/initialization_examples_width_a_sele-signed_certificate.md)
 
     * [3.2 manager]()
         * [3.2.1 new Manager(url[,options])](client-api/manager/new_manager_url_options.md)
@@ -134,38 +137,40 @@ gitbook 见 ：https://socket.gitbook.io/docs/
 * [4 服务端-API(Server-API)]()
 
     * [4.1 server]()
-        * [4.1.1 new_server_httpserver_options](server-api/server/new_server_httpserver_options.md)
-        * [4.1.2 new_server_port_options](server-api/server/new_server_port_options.md)
-        * [4.1.3 new_server_options](server-api/server/new_server_options.md)
-        * [4.1.4 server_sockets](server-api/server/server_sockets.md)
-        * [4.1.5 server_serverClient_value](server-api/server/server_serverClient_value.md)
-        * [4.1.6 server_path_value](server-api/server/server_path_value.md)
-        * [4.1.7 server_adapter_value](server-api/server/server_adapter_value.md)
-        * [4.1.8 server_origins_value](server-api/server/server_origins_value.md)
-        * [4.1.9 server_origins_fn](server-api/server/server_origins_fn.md)
-        * [4.1.10 server_attach_port_options](server-api/server/server_attach_port_options.md)
-        * [4.1.11 server_listen_httpServer_options](server-api/server/server_listen_httpServer_options.md)
-        * [4.1.12 server_listent_port_options](server-api/server/server_listent_port_options.md)
-        * [4.1.13 server_bind_engine](server-api/server/server_bind_engine.md)
-        * [4.1.14 server_onconnection_socket](server-api/server/server_onconnection_socket.md)
-        * [4.1.15 server_of_nsp](server-api/server/server_of_nsp.md)
-        * [4.1.16 server_close_callback](server-api/server/server_close_callback.md)
-        * [4.1.17 server_engine_generateid](server-api/server/server_engine_generateid.md)
+        * [4.1.1 HTTP服务选项 new_server_httpserver_options](server-api/server/new_server_httpserver_options.md)
+        * [4.1.2 服务器端口选项 new_server_port_options](server-api/server/new_server_port_options.md)
+        * [4.1.3 服务器选项 new_server_options](server-api/server/new_server_options.md)
+        * [4.1.4 服务器sockets server_sockets](server-api/server/server_sockets.md)
+        * [4.1.5 服务器serverClient值 server_serverClient_value](server-api/server/server_serverClient_value.md)
+        * [4.1.6 服务器路径值 server_path_value](server-api/server/server_path_value.md)
+        * [4.1.7 服务器适配器值 server_adapter_value](server-api/server/server_adapter_value.md)
+        * [4.1.8 服务器源值 server_origins_value](server-api/server/server_origins_value.md)
+        * [4.1.9 服务器源函数 server_origins_fn](server-api/server/server_origins_fn.md)
+        * [4.1.10 服务器附加HTTP服务选项 server_attach_httpServer_options](server-api/server/server_attach_httpServer_options.md)
+        * [4.1.11 服务器附加端口选项 server_attach_port_options](server-api/server/server_attach_port_options.md)
+        * [4.1.12 服务器监听HTTP服务选项 server_listen_httpServer_options](server-api/server/server_listen_httpServer_options.md)
+        * [4.1.13 服务器监听端口选项 server_listent_port_options](server-api/server/server_listent_port_options.md)
+        * [4.1.14 服务器绑定引擎 server_bind_engine](server-api/server/server_bind_engine.md)
+        * [4.1.15 服务器连接socket server_onconnection_socket](server-api/server/server_onconnection_socket.md)
+        * [4.1.16 服务器命名空间(nsp) server_of_nsp](server-api/server/server_of_nsp.md)
+        * [4.1.17 服务器关闭回调 server_close_callback](server-api/server/server_close_callback.md)
+        * [4.1.18 服务器引擎生成socket ID server_engine_generateid](server-api/server/server_engine_generateid.md)
 
-    * [4.2 namespace]()
-        * [4.2.1 namespace_name](server-api/namespace/namespace_name.md)
-        * [4.2.2 namespace_connectid](server-api/namespace/namespace_connectid.md)
-        * [4.2.3 namespace_adapter](server-api/namespace/namespace_adapter.md)
-        * [4.2.4 namespace_to_room](server-api/namespace/namespace_to_room.md)
-        * [4.2.4 namespace_in_room](server-api/namespace/namespace_in_room.md)
-        * [4.2.5 namespace_emit_eventname_args](server-api/namespace/namespace_emit_eventname_args.md)
-        * [4.2.6 namespace_clients_callback](server-api/namespace/namespace_clients_callback.md)
-        * [4.2.7 namespace_use_fn](server-api/namespace/namespace_use_fn.md)
-        * [4.2.8 event_connect](server-api/namespace/event_connect.md)
-        * [4.2.9 event_connection](server-api/namespace/event_connection.md)
-        * [4.2.10 flag_volatile](server-api/namespace/flag_volatile.md)
-        * [4.2.11 flag_binary](server-api/namespace/flag_binary.md)
-        * [4.2.12 flag_local](server-api/namespace/flag_local.md)
+    * [4.2 命名空间(namespace)]()
+        * [4.2.1 命名空间 namespace](server-api/namespace/namespace.md)
+        * [4.2.2 命名空间名称 namespace_name](server-api/namespace/namespace_name.md)
+        * [4.2.3 命名空间连接 namespace_connected](server-api/namespace/namespace_connected.md)
+        * [4.2.4 命名空间适配器 namespace_adapter](server-api/namespace/namespace_adapter.md)
+        * [4.2.5 命名空间到房间 namespace_to_room](server-api/namespace/namespace_to_room.md)
+        * [4.2.6 命名空间在房间 namespace_in_room](server-api/namespace/namespace_in_room.md)
+        * [4.2.7 命名空间发送事件参数 namespace_emit_eventname_args](server-api/namespace/namespace_emit_eventname_args.md)
+        * [4.2.8 命名空间客户端回调 namespace_clients_callback](server-api/namespace/namespace_clients_callback.md)
+        * [4.2.9 命名空间中间件函数 namespace_use_fn](server-api/namespace/namespace_use_fn.md)
+        * [4.2.10 连接事件 event_connect](server-api/namespace/event_connect.md)
+        * [4.2.11 事件连接 event_connection](server-api/namespace/event_connection.md)
+        * [4.2.12 可见性标志位 flag_volatile](server-api/namespace/flag_volatile.md)
+        * [4.2.13 二进制标志位 flag_binary](server-api/namespace/flag_binary.md)
+        * [4.2.14 本地标记位 flag_local](server-api/namespace/flag_local.md)
         
     * [4.3 socket]()
         * [4.3.1 socket_id](server-api/socket/socket_id.md)
@@ -196,8 +201,113 @@ gitbook 见 ：https://socket.gitbook.io/docs/
         * [4.3.26 event_error](server-api/socket/event_error.md)
         * [4.3.27 event_disconnecting](server-api/socket/event_disconnecting.md)
     * [4.4 client]()
-        * [4.4.1 client_conn](server-api/client/client_conn.md)
-        * [4.4.2 client_request](server-api/client/client_request.md)
+        * [4.4.1 client](server-api/client/client.md)
+        * [4.4.2 client_conn](server-api/client/client_conn.md)
+        * [4.4.3 client_request](server-api/client/client_request.md)
+
+
+
+## 术语
+
+### 术语转换
+|错误|校正|
+|---|----|
+|`客户机`|客户端|
+|`套接字`|socket|
+|`插座`|socket|
+|`发射`|发送|
+|`分析器`|解析器|
+|`underlying`|底层|
+|`激发`|触发|
+|||
+
+### 英文翻译
+- `traditionally 传统，一直以来`
+- `involves 涉及`
+- `polling 投票、轮询`
+- `goal 目标，得分，母的`
+- `populate 填充、补完`
+- `confufing 混乱 混淆`
+- `entire 整个`
+- `placed 放置`
+- `instead 相反的`
+- `refactor 重构`
+- `composed 组成`
+- `exposes 暴露` 
+- `several 一些` 
+- `behind 背后`
+- `prevents 放置` 
+- `broadcasting 广播` 
+- `the rest 其余`
+- `in order to 为了`
+- `except 除了`
+- `certain 某些`
+- `in the case 在这种情况下`
+- `for the sake of simplicity 为了简单起见`
+- `capture  捕获`
+- `total 全部`
+- `amounts 量、等于、合计`
+- `directly z直接地 `
+- `presses 按下`
+- `typing 打字`
+- `functionality 功能`
+- `improvements 改进`
+- `enables 可以，使能够`
+- `real-time 实时`
+- `bidirectional 双向的` 
+- `event-based 基于事件`
+- `communication 通信、沟通`
+- `between 之间`
+- `consists 包括`
+- `which can  也可以`
+- `Multiplexing 多路复用`
+- `established 建立`
+- `presence 存在`
+- `load balancers 负载均衡器`
+- `firewall 防火墙`
+- `purpose 目的`
+- `antivirus 防病毒`
+- `relies 依赖`
+- `polling 轮询 `
+- `goals 目标`
+- `For this purpose 为此`
+- `Unless 除非`
+- `instructed 得到指示`
+- `otherwise 否则`
+- `heartbeat 心跳`
+- `mechanism 机智`
+- `implemented 实现、实施，贯彻，使生效`
+- `allowing 允许`
+- `anymore 不在`
+- `functionality 功能`
+- `acheieved  实现、达到`
+- `handshake 握手`
+- `serializable 可序列化的`
+- `structures 结构`
+- `separation 分离`
+- `concerns 关注`
+- `per 每`
+- `underlying connection 底层连接`
+- `arbitrary 任意`
+- `reaching 到达`
+- `given 给定、特定、指定`
+- `useful 有用`
+- `standalone 独立`
+- `served 服务`
+- `implementations 实现方式`
+- `several 几个`
+- `maintained 维护、保持`
+- `besides 此外，除了`
+- `restricting 限制`
+- `reception 接待、接受`
+- `volatile 不稳定的`
+- `certain 某些 `
+- `essentially  本质上`
+- `assigning 分配`
+- `minimize 减少`
+- `identified `
+- `short form 简写`
+
 
 _________________________________________
 
