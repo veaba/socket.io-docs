@@ -1,6 +1,6 @@
 ## 房间
 
-在每个名称空间中，还可以定义`sockets`可以`join(加入/连接)`和`level(离开)`的任意通道。
+在每个名称空间中，还可以定义`sockets`可以`join(加入/连接)`和`leave(离开)`的任意通道。
 
 ### 加入或离开
 
@@ -18,10 +18,10 @@ io.on('connection',socket=>{
 io.to('some room').emit('some event');
 ```
 
-离开该频道，请以与`join`的相同的方式调用`level`:
+离开该频道，请以与`join`的相同的方式调用`leave`:
 
 ```js
-io.level("some room")
+io.leave("some room")
 ```
 
 ### 默认房间
