@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://127.0.0.1/socket.io/socket.io.js"></script>
+ 
+</head>
+<body>
+    
+</body>
+<script>
+    const chat = io.connect('http://localhost/chat')
+    const news = io.connect('http://localhost/news')
+    chat.on('connect',()=>{
+        chat.emit('hi~')
+        chat.on("a message",(data)=>{
+            console.log(data)
+        })
+
+    })
+
+    news.on('news',()=>{
+        news.emit('wowo~')
+    })
+</script>
+</html>

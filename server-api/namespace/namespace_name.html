@@ -1,0 +1,2546 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.2.2 命名空间名称 namespace_name · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="namespace_connected.html" />
+    
+    
+    <link rel="prev" href="namespace.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    关于本socket.io中文文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <a target="_blank" href="https://socket.io/">
+            
+                    
+                    socket.IO website
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    1 指南(Guide)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../guide/introduction.html">
+            
+                <a href="../../guide/introduction.html">
+            
+                    
+                    1-1 介绍(Introduction)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../guide/the_web_framework.html">
+            
+                <a href="../../guide/the_web_framework.html">
+            
+                    
+                    1-2 web框架(The web framework)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../guide/serving_html.html">
+            
+                <a href="../../guide/serving_html.html">
+            
+                    
+                    1-3 服务HTML(Serving HTML)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../guide/integrating_socket.io.html">
+            
+                <a href="../../guide/integrating_socket.io.html">
+            
+                    
+                    1-4 集成 socket.io(Integrating socket.io)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../guide/emitting_events.html">
+            
+                <a href="../../guide/emitting_events.html">
+            
+                    
+                    1-5 发送事件(Emiting events)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../guide/broadcasting.html">
+            
+                <a href="../../guide/broadcasting.html">
+            
+                    
+                    1-6 广播(Broadcasting)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../guide/homework.html">
+            
+                <a href="../../guide/homework.html">
+            
+                    
+                    1-7 作业(Homework)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../guide/getting_this_example.html">
+            
+                <a href="../../guide/getting_this_example.html">
+            
+                    
+                    1-8 获取示例(Getting this example)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    2  文档(Docs)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                    2.1 概览
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../../docs/overview/what_socket.io_is.html">
+            
+                <a href="../../docs/overview/what_socket.io_is.html">
+            
+                    
+                    2.1.1 啥是Socket.io
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../../docs/overview/what_socket.io_is_not.html">
+            
+                <a href="../../docs/overview/what_socket.io_is_not.html">
+            
+                    
+                    2.1.2 Socket.io不是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../../docs/overview/installing.html">
+            
+                <a href="../../docs/overview/installing.html">
+            
+                    
+                    2.1.3 安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../../docs/overview/using_with_node_http_server.html">
+            
+                <a href="../../docs/overview/using_with_node_http_server.html">
+            
+                    
+                    2.1.4 在Node HTTP 服务中使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.5" data-path="../../docs/overview/using_with_express.html">
+            
+                <a href="../../docs/overview/using_with_express.html">
+            
+                    
+                    2.1.5 在express中使用Socket.io
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.6" data-path="../../docs/overview/sending_and_receiving_events.html">
+            
+                <a href="../../docs/overview/sending_and_receiving_events.html">
+            
+                    
+                    2.1.6 发送和接收事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.7" data-path="../../docs/overview/restricting_yourself_to_a_namespace.html">
+            
+                <a href="../../docs/overview/restricting_yourself_to_a_namespace.html">
+            
+                    
+                    2.1.7 限制自己使用命名空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.8" data-path="../../docs/overview/sending_volatile_message.html">
+            
+                <a href="../../docs/overview/sending_volatile_message.html">
+            
+                    
+                    2.1.8 发送易失性的消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.9" data-path="../../docs/overview/sending_and_getting_data_acknowledgements.html">
+            
+                <a href="../../docs/overview/sending_and_getting_data_acknowledgements.html">
+            
+                    
+                    2.1.9 发送和获取数据(确认)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.10" data-path="../../docs/overview/broadcasting_messages.html">
+            
+                <a href="../../docs/overview/broadcasting_messages.html">
+            
+                    
+                    2.1.10 广播消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.11" data-path="../../docs/overview/using_it_just_as_a_cross_browser_websocket.html">
+            
+                <a href="../../docs/overview/using_it_just_as_a_cross_browser_websocket.html">
+            
+                    
+                    2.1.111 作为跨浏览器使用websocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    2.2 房间和命名空间
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../../docs/rooms_and_namespaces/namespaces.html">
+            
+                <a href="../../docs/rooms_and_namespaces/namespaces.html">
+            
+                    
+                    2.2.1 命名空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../../docs/rooms_and_namespaces/rooms.html">
+            
+                <a href="../../docs/rooms_and_namespaces/rooms.html">
+            
+                    
+                    2.2.2 房间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../../docs/rooms_and_namespaces/sending_message_from_the_outside-world.html">
+            
+                <a href="../../docs/rooms_and_namespaces/sending_message_from_the_outside-world.html">
+            
+                    
+                    2.2.3 给外部发送消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                    2.3 从0.9迁移版本 migrating_from_0.9
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../../docs/migrating_from_0.9/authentication_differences.html">
+            
+                <a href="../../docs/migrating_from_0.9/authentication_differences.html">
+            
+                    
+                    2.3.1 身份验证差异
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../../docs/migrating_from_0.9/log_differences.html">
+            
+                <a href="../../docs/migrating_from_0.9/log_differences.html">
+            
+                    
+                    2.3.2 日志差异
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../../docs/migrating_from_0.9/shorcuts.html">
+            
+                <a href="../../docs/migrating_from_0.9/shorcuts.html">
+            
+                    
+                    2.3.3 快捷方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="../../docs/migrating_from_0.9/configuration_differences.html">
+            
+                <a href="../../docs/migrating_from_0.9/configuration_differences.html">
+            
+                    
+                    2.3.4 配置差异
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.5" data-path="../../docs/migrating_from_0.9/parser_protocol_differences.html">
+            
+                <a href="../../docs/migrating_from_0.9/parser_protocol_differences.html">
+            
+                    
+                    2.3.5 解析器/协议差异
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" >
+            
+                <span>
+            
+                    
+                    2.4 多路节点使用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../../docs/using_multiple_nodes/apache_httpd_configuration.html">
+            
+                <a href="../../docs/using_multiple_nodes/apache_httpd_configuration.html">
+            
+                    
+                    2.4.1 Apache httpd配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../../docs/using_multiple_nodes/passing_events_between_nodes.html">
+            
+                <a href="../../docs/using_multiple_nodes/passing_events_between_nodes.html">
+            
+                    
+                    2.4.2 在节点之间传递事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../../docs/using_multiple_nodes/haproxy_configuration.html">
+            
+                <a href="../../docs/using_multiple_nodes/haproxy_configuration.html">
+            
+                    
+                    2.4.3 Haproxy配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="../../docs/using_multiple_nodes/sticky_load_balancing.html">
+            
+                <a href="../../docs/using_multiple_nodes/sticky_load_balancing.html">
+            
+                    
+                    2.4.4 粘性负载均衡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.5" data-path="../../docs/using_multiple_nodes/nginx_configuration.html">
+            
+                <a href="../../docs/using_multiple_nodes/nginx_configuration.html">
+            
+                    
+                    2.4.5 Nginx配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.6" data-path="../../docs/using_multiple_nodes/using_node.js_cluster.html">
+            
+                <a href="../../docs/using_multiple_nodes/using_node.js_cluster.html">
+            
+                    
+                    2.4.6 使用node.js集群
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" >
+            
+                <span>
+            
+                    
+                    2.5 日志和调试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../../docs/logging_and_debugging/available_debugging_scopes.html">
+            
+                <a href="../../docs/logging_and_debugging/available_debugging_scopes.html">
+            
+                    
+                    2.5.1 可用的调试范围
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../docs/emit_cheatsheet.html">
+            
+                <a href="../../docs/emit_cheatsheet.html">
+            
+                    
+                    2.6 emit 备忘单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" >
+            
+                <span>
+            
+                    
+                    2.7 内部概述
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../../docs/internals_overview_dependency_graph_under_the_hood.html">
+            
+                <a href="../../docs/internals_overview_dependency_graph_under_the_hood.html">
+            
+                    
+                    2.7.1 内部概述引擎底层依赖关系图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.2" data-path="../../docs/internals_overview_dependency_graph.html">
+            
+                <a href="../../docs/internals_overview_dependency_graph.html">
+            
+                    
+                    2.7.2 内部概述关系图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../../docs/faq.html">
+            
+                <a href="../../docs/faq.html">
+            
+                    
+                    2.8 faq
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    3 客户端-API(Client-API)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <span>
+            
+                    
+                    3.1 io
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../client-api/io/io_protocol.html">
+            
+                <a href="../../client-api/io/io_protocol.html">
+            
+                    
+                    3.1.1 io.protocpl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../client-api/io/io_url_options.html">
+            
+                <a href="../../client-api/io/io_url_options.html">
+            
+                    
+                    3.1.2 io([url][,optiosn])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../../client-api/io/initialization_examples_with_multiplexing.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_multiplexing.html">
+            
+                    
+                    3.1.3 初始化示例-带多路复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.4" data-path="../../client-api/io/initialization_examples_with_custom_path.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_custom_path.html">
+            
+                    
+                    3.1.4 初始化示例-自定义路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.5" data-path="../../client-api/io/initialization_examples_with_query_parameters.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_query_parameters.html">
+            
+                    
+                    3.1.5 初始化示例-查询参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.6" data-path="../../client-api/io/initialization_examples_with_query_option.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_query_option.html">
+            
+                    
+                    3.1.6 初始化示例-查询选项
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.7" data-path="../../client-api/io/initialization_examples_with_extraHeaders.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_extraHeaders.html">
+            
+                    
+                    3.1.7 初始化示例-额外Headers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.8" data-path="../../client-api/io/initialization_examples_with_websockets_transport_only.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_websockets_transport_only.html">
+            
+                    
+                    3.1.8 初始化示例-仅限websocket传输
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.9" data-path="../../client-api/io/initialization_examples_with_a_custom_parser.html">
+            
+                <a href="../../client-api/io/initialization_examples_with_a_custom_parser.html">
+            
+                    
+                    3.1.9 初始化示例-自定义解析器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.10" data-path="../../client-api/io/initialization_examples_width_a_sele-signed_certificate.md">
+            
+                <span>
+            
+                    
+                    3.1.11 初始化示例-自签名证书
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" >
+            
+                <span>
+            
+                    
+                    3.2 manager
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../client-api/manager/new_manager_url_options.html">
+            
+                <a href="../../client-api/manager/new_manager_url_options.html">
+            
+                    
+                    3.2.1 new Manager(url[,options])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../client-api/manager/nmanager_reconnection_value.md">
+            
+                <span>
+            
+                    
+                    3.2.2 manager.reconnection([value])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../client-api/manager/nmanager_reconnectionAttempts_value.md">
+            
+                <span>
+            
+                    
+                    3.2.3 manager.reconnectionAttempts([value])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../../client-api/manager/nmanager_reconnectionDelay_value.md">
+            
+                <span>
+            
+                    
+                    3.2.4 manager.reconnectionDelay.([value])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../../client-api/manager/nmanager_reconnectionDelayMax_value.md">
+            
+                <span>
+            
+                    
+                    3.2.5 manager.reconnectionDelayMax([value])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.6" data-path="../../client-api/manager/nmanager_timeout_value.md">
+            
+                <span>
+            
+                    
+                    3.2.6 manager.timeout(pvalue[])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.7" data-path="../../client-api/manager/nmanager_open_callback.md">
+            
+                <span>
+            
+                    
+                    3.2.7 manager.open([callback])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.8" data-path="../../client-api/manager/nmanager_connect_callback.md">
+            
+                <span>
+            
+                    
+                    3.2.8 manager.connect([callback])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.9" data-path="../../client-api/manager/nmanager_socket_nsp_options.md">
+            
+                <span>
+            
+                    
+                    3.2.9 manager.socket(nsp,options)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.10" data-path="../../client-api/manager/nevent_connect_error.md">
+            
+                <span>
+            
+                    
+                    3.2.10 event:connect_error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.11" data-path="../../client-api/manager/nevent_connect_timeout.md">
+            
+                <span>
+            
+                    
+                    3.2.11 event:connect_timeout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.12" data-path="../../client-api/manager/nevent_reconnect.md">
+            
+                <span>
+            
+                    
+                    3.2.12 event:reconnect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.13" data-path="../../client-api/manager/nevent_reconnect_attempt.md">
+            
+                <span>
+            
+                    
+                    3.2.13 event:reconnect_attempt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.14" data-path="../../client-api/manager/nevent_reconnecting.md">
+            
+                <span>
+            
+                    
+                    3.2.14 event:reconnecting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.15" data-path="../../client-api/manager/nevent_reconnect_error.md">
+            
+                <span>
+            
+                    
+                    3.2.15 event:reconnect_error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.16" data-path="../../client-api/manager/nevent_reconnect_failed.md">
+            
+                <span>
+            
+                    
+                    3.2.16 event:reconnect_failed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.17" data-path="../../client-api/manmanagerage/nevent_ping.md">
+            
+                <span>
+            
+                    
+                    3.2.17 event:ping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.18" data-path="../../client-api/manager/nevent_pong.md">
+            
+                <span>
+            
+                    
+                    3.2.18 event:pong
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" >
+            
+                <span>
+            
+                    
+                    3.3 socket
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../../client-api/socket/socket_id.html">
+            
+                <a href="../../client-api/socket/socket_id.html">
+            
+                    
+                    3.3.1 socket.id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../../client-api/socket/socket_connected.html">
+            
+                <a href="../../client-api/socket/socket_connected.html">
+            
+                    
+                    3.3.2 socket.connected
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="../../client-api/socket/socket_disconnected.html">
+            
+                <a href="../../client-api/socket/socket_disconnected.html">
+            
+                    
+                    3.3.3 socket.disconnected
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.4" data-path="../../client-api/socket/socket_open.html">
+            
+                <a href="../../client-api/socket/socket_open.html">
+            
+                    
+                    3.3.4 socket.open()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.5" data-path="../../client-api/socket/socket_connect.html">
+            
+                <a href="../../client-api/socket/socket_connect.html">
+            
+                    
+                    3.3.5 socket.connect()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.6" data-path="../../client-api/socket/socket_send_args_ack.html">
+            
+                <a href="../../client-api/socket/socket_send_args_ack.html">
+            
+                    
+                    3.3.6 socket.send([...args][,ack])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.7" data-path="../../client-api/socket/socket_emit_eventName_args_ack.html">
+            
+                <a href="../../client-api/socket/socket_emit_eventName_args_ack.html">
+            
+                    
+                    3.3.7 socket.emit(eventName,[...args][,ack])
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.8" data-path="../../client-api/socket/socket_on_eventName_callback.html">
+            
+                <a href="../../client-api/socket/socket_on_eventName_callback.html">
+            
+                    
+                    3.3.8 socket.on(eventName,callback)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.9" data-path="../../client-api/socket/socket_compress_value.html">
+            
+                <a href="../../client-api/socket/socket_compress_value.html">
+            
+                    
+                    3.3.9 socket.compress(value)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.10" data-path="../../client-api/socket/socket_binary_value.html">
+            
+                <a href="../../client-api/socket/socket_binary_value.html">
+            
+                    
+                    3.3.10 socket.binary(value)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.11" data-path="../../client-api/socket/socket_close.html">
+            
+                <a href="../../client-api/socket/socket_close.html">
+            
+                    
+                    3.3.11 socket.close()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.12" data-path="../../client-api/socket/socket_disconnect.html">
+            
+                <a href="../../client-api/socket/socket_disconnect.html">
+            
+                    
+                    3.3.12 socket.disconnect()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.13" data-path="../../client-api/socket/event_connect.html">
+            
+                <a href="../../client-api/socket/event_connect.html">
+            
+                    
+                    3.3.13 event:connect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.14" data-path="../../client-api/socket/event_connect_error.html">
+            
+                <a href="../../client-api/socket/event_connect_error.html">
+            
+                    
+                    3.3.14 event:connect_error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.15" data-path="../../client-api/socket/event_connect_timeout.html">
+            
+                <a href="../../client-api/socket/event_connect_timeout.html">
+            
+                    
+                    3.3.15 event:connect_timeout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.16" data-path="../../client-api/socket/event_error.html">
+            
+                <a href="../../client-api/socket/event_error.html">
+            
+                    
+                    3.3.16 event:error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.17" data-path="../../client-api/socket/event_disconnect.html">
+            
+                <a href="../../client-api/socket/event_disconnect.html">
+            
+                    
+                    3.3.17 event:disconnect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.18" data-path="../../client-api/socket/event_reconnect.html">
+            
+                <a href="../../client-api/socket/event_reconnect.html">
+            
+                    
+                    3.3.18 event:reconnect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.19" data-path="../../client-api/socket/event_reconnect_attempt.html">
+            
+                <a href="../../client-api/socket/event_reconnect_attempt.html">
+            
+                    
+                    3.3.19 event:reconnect_attempt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.20" data-path="../../client-api/socket/event_reconnenting.html">
+            
+                <a href="../../client-api/socket/event_reconnenting.html">
+            
+                    
+                    3.3.20 event:reconnenting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.21" data-path="../../client-api/socket/event_reconnect_error.html">
+            
+                <a href="../../client-api/socket/event_reconnect_error.html">
+            
+                    
+                    3.3.21 event:reconnect_error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.22" data-path="../../client-api/socket/event_reconnect_failed.html">
+            
+                <a href="../../client-api/socket/event_reconnect_failed.html">
+            
+                    
+                    3.3.22 event:reconnect_failed
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.23" data-path="../../client-api/socket/event_ping.html">
+            
+                <a href="../../client-api/socket/event_ping.html">
+            
+                    
+                    3.3.23 event:ping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.24" data-path="../../client-api/socket/event_pong.html">
+            
+                <a href="../../client-api/socket/event_pong.html">
+            
+                    
+                    3.3.24 event:pong
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    4 服务端-API(Server-API)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" >
+            
+                <span>
+            
+                    
+                    4.1 server
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../server/new_server_httpserver_options.html">
+            
+                <a href="../server/new_server_httpserver_options.html">
+            
+                    
+                    4.1.1 HTTP服务选项 new_server_httpserver_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../server/new_server_port_options.html">
+            
+                <a href="../server/new_server_port_options.html">
+            
+                    
+                    4.1.2 服务器端口选项 new_server_port_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../server/new_server_options.html">
+            
+                <a href="../server/new_server_options.html">
+            
+                    
+                    4.1.3 服务器选项 new_server_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.4" data-path="../server/server_sockets.html">
+            
+                <a href="../server/server_sockets.html">
+            
+                    
+                    4.1.4 服务器sockets server_sockets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.5" data-path="../server/server_serverClient_value.html">
+            
+                <a href="../server/server_serverClient_value.html">
+            
+                    
+                    4.1.5 服务器serverClient值 server_serverClient_value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.6" data-path="../server/server_path_value.html">
+            
+                <a href="../server/server_path_value.html">
+            
+                    
+                    4.1.6 服务器路径值 server_path_value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.7" data-path="../server/server_adapter_value.html">
+            
+                <a href="../server/server_adapter_value.html">
+            
+                    
+                    4.1.7 服务器适配器值 server_adapter_value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.8" data-path="../server/server_origins_value.html">
+            
+                <a href="../server/server_origins_value.html">
+            
+                    
+                    4.1.8 服务器源值 server_origins_value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.9" data-path="../server/server_origins_fn.html">
+            
+                <a href="../server/server_origins_fn.html">
+            
+                    
+                    4.1.9 服务器源函数 server_origins_fn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.10" data-path="../server/server_attach_httpServer_options.html">
+            
+                <a href="../server/server_attach_httpServer_options.html">
+            
+                    
+                    4.1.10 服务器附加HTTP服务选项 server_attach_httpServer_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.11" data-path="../server/server_attach_port_options.html">
+            
+                <a href="../server/server_attach_port_options.html">
+            
+                    
+                    4.1.11 服务器附加端口选项 server_attach_port_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.12" data-path="../server/server_listen_httpServer_options.html">
+            
+                <a href="../server/server_listen_httpServer_options.html">
+            
+                    
+                    4.1.12 服务器监听HTTP服务选项 server_listen_httpServer_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.13" data-path="../server/server_listent_port_options.html">
+            
+                <a href="../server/server_listent_port_options.html">
+            
+                    
+                    4.1.13 服务器监听端口选项 server_listent_port_options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.14" data-path="../server/server_bind_engine.html">
+            
+                <a href="../server/server_bind_engine.html">
+            
+                    
+                    4.1.14 服务器绑定引擎 server_bind_engine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.15" data-path="../server/server_onconnection_socket.html">
+            
+                <a href="../server/server_onconnection_socket.html">
+            
+                    
+                    4.1.15 服务器连接socket server_onconnection_socket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.16" data-path="../server/server_of_nsp.html">
+            
+                <a href="../server/server_of_nsp.html">
+            
+                    
+                    4.1.16 服务器命名空间(nsp) server_of_nsp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.17" data-path="../server/server_close_callback.html">
+            
+                <a href="../server/server_close_callback.html">
+            
+                    
+                    4.1.17 服务器关闭回调 server_close_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.18" data-path="../server/server_engine_generateid.html">
+            
+                <a href="../server/server_engine_generateid.html">
+            
+                    
+                    4.1.18 服务器引擎生成socket ID server_engine_generateid
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" >
+            
+                <span>
+            
+                    
+                    4.2 命名空间(namespace)
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="namespace.html">
+            
+                <a href="namespace.html">
+            
+                    
+                    4.2.1 命名空间 namespace
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.2.2" data-path="namespace_name.html">
+            
+                <a href="namespace_name.html">
+            
+                    
+                    4.2.2 命名空间名称 namespace_name
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="namespace_connected.html">
+            
+                <a href="namespace_connected.html">
+            
+                    
+                    4.2.3 命名空间连接 namespace_connected
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="namespace_adapter.html">
+            
+                <a href="namespace_adapter.html">
+            
+                    
+                    4.2.4 命名空间适配器 namespace_adapter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.5" data-path="namespace_to_room.html">
+            
+                <a href="namespace_to_room.html">
+            
+                    
+                    4.2.5 命名空间到房间 namespace_to_room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.6" data-path="namespace_in_room.html">
+            
+                <a href="namespace_in_room.html">
+            
+                    
+                    4.2.6 命名空间在房间 namespace_in_room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.7" data-path="namespace_emit_eventname_args.html">
+            
+                <a href="namespace_emit_eventname_args.html">
+            
+                    
+                    4.2.7 命名空间发送事件参数 namespace_emit_eventname_args
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.8" data-path="namespace_clients_callback.html">
+            
+                <a href="namespace_clients_callback.html">
+            
+                    
+                    4.2.8 命名空间客户端回调 namespace_clients_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.9" data-path="namespace_use_fn.html">
+            
+                <a href="namespace_use_fn.html">
+            
+                    
+                    4.2.9 命名空间中间件函数 namespace_use_fn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.10" data-path="event_connect.html">
+            
+                <a href="event_connect.html">
+            
+                    
+                    4.2.10 连接事件 event_connect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.11" data-path="event_connection.html">
+            
+                <a href="event_connection.html">
+            
+                    
+                    4.2.11 事件连接 event_connection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.12" data-path="flag_volatile.html">
+            
+                <a href="flag_volatile.html">
+            
+                    
+                    4.2.12 可见性标志位 flag_volatile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.13" data-path="flag_binary.html">
+            
+                <a href="flag_binary.html">
+            
+                    
+                    4.2.13 二进制标志位 flag_binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.14" data-path="flag_local.html">
+            
+                <a href="flag_local.html">
+            
+                    
+                    4.2.14 本地标记位 flag_local
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" >
+            
+                <span>
+            
+                    
+                    4.3 socket
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../socket/socket_id.html">
+            
+                <a href="../socket/socket_id.html">
+            
+                    
+                    4.3.1 socket_id
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../socket/socket_rooms.html">
+            
+                <a href="../socket/socket_rooms.html">
+            
+                    
+                    4.3.2 socket_rooms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.3" data-path="../socket/socket_client.html">
+            
+                <a href="../socket/socket_client.html">
+            
+                    
+                    4.3.3 socket_client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.4" data-path="../socket/socket_conn.html">
+            
+                <a href="../socket/socket_conn.html">
+            
+                    
+                    4.3.4 socket_conn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.5" data-path="../socket/socket_request.html">
+            
+                <a href="../socket/socket_request.html">
+            
+                    
+                    4.3.5 socket_request
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.6" data-path="../socket/socket_handshake.html">
+            
+                <a href="../socket/socket_handshake.html">
+            
+                    
+                    4.3.6 socket_handshake
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.7" data-path="../socket/socket_use_fn.html">
+            
+                <a href="../socket/socket_use_fn.html">
+            
+                    
+                    4.3.7 socket_use_fn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.8" data-path="../socket/socket_send_args_ack.html">
+            
+                <a href="../socket/socket_send_args_ack.html">
+            
+                    
+                    4.3.8 socket_send_args_ack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.9" data-path="../socket/socket_emit_evenName_args_ack.md">
+            
+                <span>
+            
+                    
+                    4.3.9 socket_emit_eventName_args_ack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.10" data-path="../socket/socket_on_eventName_callback.md">
+            
+                <span>
+            
+                    
+                    4.3.10 socket_on_eventName_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.11" data-path="../socket/socket_once_eventName_listener.md">
+            
+                <span>
+            
+                    
+                    4.3.11 socket_once_eventName_listener
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.12" data-path="../socket/socket_removelistener_eventName_listener.md">
+            
+                <span>
+            
+                    
+                    4.3.12 socket_removelistener_eventName_listener
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.13" data-path="../socket/socket_removeAllListeners_eventName.html">
+            
+                <a href="../socket/socket_removeAllListeners_eventName.html">
+            
+                    
+                    4.3.13 socket_removeAllListeners_eventName
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.14" data-path="../socket/socket_eventNames.html">
+            
+                <a href="../socket/socket_eventNames.html">
+            
+                    
+                    4.3.14 socket_eventNames
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.15" data-path="../socket/socket_join_room_callback.html">
+            
+                <a href="../socket/socket_join_room_callback.html">
+            
+                    
+                    4.3.15 socket_join_room_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.16" data-path="../socket/socket_join_rooms_callback.html">
+            
+                <a href="../socket/socket_join_rooms_callback.html">
+            
+                    
+                    4.3.16 socket_join_rooms_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.17" data-path="../socket/socket_leave_room_callback.html">
+            
+                <a href="../socket/socket_leave_room_callback.html">
+            
+                    
+                    4.3.17 socket_leave_room_callback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.18" data-path="../socket/socket_to_room.html">
+            
+                <a href="../socket/socket_to_room.html">
+            
+                    
+                    4.3.18 socket_to_room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.19" data-path="../socket/socket_in_room.html">
+            
+                <a href="../socket/socket_in_room.html">
+            
+                    
+                    4.3.19 socket_in_room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.20" data-path="../socket/socket_compress_value.html">
+            
+                <a href="../socket/socket_compress_value.html">
+            
+                    
+                    4.3.20 socket_compress_value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.21" data-path="../socket/socket_disconnect_close.html">
+            
+                <a href="../socket/socket_disconnect_close.html">
+            
+                    
+                    4.3.21 socket_disconnect_close
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.22" data-path="../socket/flag_broadcast.html">
+            
+                <a href="../socket/flag_broadcast.html">
+            
+                    
+                    4.3.22 flag_broadcast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.23" data-path="../socket/flag_volatile.html">
+            
+                <a href="../socket/flag_volatile.html">
+            
+                    
+                    4.3.23 flag_volatile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.24" data-path="../socket/flag_binary.html">
+            
+                <a href="../socket/flag_binary.html">
+            
+                    
+                    4.3.24 flag_binary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.25" data-path="../socket/event_disconnect.html">
+            
+                <a href="../socket/event_disconnect.html">
+            
+                    
+                    4.3.25 event_disconnect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.26" data-path="../socket/event_error.html">
+            
+                <a href="../socket/event_error.html">
+            
+                    
+                    4.3.26 event_error
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.27" data-path="../socket/event_disconnecting.html">
+            
+                <a href="../socket/event_disconnecting.html">
+            
+                    
+                    4.3.27 event_disconnecting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" >
+            
+                <span>
+            
+                    
+                    4.4 client
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.1" data-path="../client/client.html">
+            
+                <a href="../client/client.html">
+            
+                    
+                    4.4.1 client
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="../client/client_conn.html">
+            
+                <a href="../client/client_conn.html">
+            
+                    
+                    4.4.2 client_conn
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.3" data-path="../client/client_request.html">
+            
+                <a href="../client/client_request.html">
+            
+                    
+                    4.4.3 client_request
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >4.2.2 命名空间名称 namespace_name</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="namespacename">namespace.name</h2>
+<ul>
+<li>(String)</li>
+</ul>
+<p>&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x6807;&#x8BC6;&#x7B26;&#x5C5E;&#x6027;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="namespace.html" class="navigation navigation-prev " aria-label="Previous page: 4.2.1 命名空间 namespace">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="namespace_connected.html" class="navigation navigation-next " aria-label="Next page: 4.2.3 命名空间连接 namespace_connected">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.2.2 命名空间名称 namespace_name","level":"1.6.2.2","depth":3,"next":{"title":"4.2.3 命名空间连接 namespace_connected","level":"1.6.2.3","depth":3,"path":"server-api/namespace/namespace_connected.md","ref":"server-api/namespace/namespace_connected.md","articles":[]},"previous":{"title":"4.2.1 命名空间 namespace","level":"1.6.2.1","depth":3,"path":"server-api/namespace/namespace.md","ref":"server-api/namespace/namespace.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"server-api/namespace/namespace_name.md","mtime":"2021-03-25T14:53:48.945Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-25T14:54:29.748Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
